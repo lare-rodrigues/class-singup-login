@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+html {
+    height: 100%;
+    font-family: 'Monda', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(63, 83, 117, 1) 0%, rgba(58, 127, 245, 1) 100%);
+    /* background-repeat: no-repeat; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.card {
+    background-color: #ececec;
+    border-radius: 40px;
+    width: 330px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 15px 0px #0000004D;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    color: #1c3d75;
+    font-weight: 590;
+}
+
+.sign-up p {
+    margin-bottom: 70px;
+    margin-top: 60px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin: 0 60px 0 60px;
+}
+
+.field-input {
+    font-family: 'Monda', sans-serif;
+    margin: 5px 0 5px 0;
+    padding: 8px;
+    border-radius: 40px;
+    background-color: #1C3D75;
+    border: 0 none;
+    box-shadow: 2px 2px 7px 0px #0000004D;
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.field-input:hover {
+    background-color: #1e4382;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 40px 80px 40px;
+}
+
+.button button {
+    padding: 8px 88px 8px 88px;
+    border-radius: 40px;
+    font-family: 'Monda', sans-serif;
+    background-color: #EDB627;
+    border: 0 none;
+    color: #ffffff;
+    font-weight: 700px;
+    font-size: 11px;
+    cursor: pointer;
+    box-shadow: 2px 2px 7px 0px #0000004D;
+}
+
+.button button:hover {
+    background-color: #e7a705;
+}
+
+.button-registrar,
+.conta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1C3D75;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+a {
+    color: inherit;
+}
